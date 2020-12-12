@@ -26,7 +26,7 @@ i.fa {
 
 /* NAVBAR (DEN, CROSSROADS, HOARD) */
 .navbar {
-	background: #566347 !important;
+	background: #404147 !important;
 	color: #fffdfe !important;
 	border-top-left-radius: 10px !important;
 	border-top-right-radius: 10px !important;
@@ -119,7 +119,7 @@ div.col-lg-9.order-lg-2 {
 
 div.col-lg-9.order-lg-2 h1 {
 	color: #fffdfe !important;
-	text-shadow: 1px 1px #566347 !important;
+	text-shadow: 1px 1px #404147 !important;
 	font-size: 50px !important;
 }
 
@@ -170,7 +170,7 @@ form.mb-3.text-center a h4 i.fa.fa-box {
 /* LEFT PANELS */
 
 .card {
-	background: #005e9a !important;
+	background: #556a89 !important;
 	border: none !important;
 	border-radius: 10px !important;
 }
@@ -190,25 +190,25 @@ h3 {
 /* CHAT TOGGLE */
 
 i.fa.fa-plus.fa-lg, i.fa.fa-lg.fa-minus {
-	color: #566347 !important;
+	color: #404147 !important;
 }
 
 /* PROGRESS BARS */
 
 .progress {
-	background: #c0a590 !important;
+	background: #3b485a !important;
 }
 
 div#progress-energy.progress-bar.bg-warning {
-	background: #3a9bff !important;
+	background: #58c4f4 !important;
 }
 
 div#progress-hunger.progress-bar.bg-danger {
-	background: #5aa84f !important;
+	background: #507dcc !important;
 }
 
 div#progress-hp.progress-bar.bg-info {
-	background: #858555 !important;
+	background: #dffeff !important;
 }
 
 div#progress-xp.progress-bar.bg-success {
@@ -216,15 +216,15 @@ div#progress-xp.progress-bar.bg-success {
 }
 
 div.progress-bar.bg-warning {
-	background: #3a9bff !important;
+	background: #58c4f4 !important;
 }
 
 div.progress-bar.bg-primary {
-	background: #5aa84f !important;
+	background: #507dcc !important;
 }
 
 div.progress-bar.bg-danger {
-	background: #858555 !important;
+	background: #dffeff !important;
 }
 
 div.progress-bar.bg-info {
@@ -232,13 +232,13 @@ div.progress-bar.bg-info {
 }
 
 div.progress-bar.bg-success {
-	background: #3a9bff !important;
+	background: #58c4f4 !important;
 }
 
 /* WOLF NAME BAR */
 
 th.pt-1.pb-1 {
-	background: #566347 !important;
+	background: #404147 !important;
 	color: #fffdfe !important;
 	border: none !important;
 	border-top-left-radius: 10px !important;
@@ -252,7 +252,7 @@ th.pt-1.pb-1 a {
 /* CAVE NAME BAR */
 
 th.top {
-	background: #566347 !important;
+	background: #404147 !important;
 	color: #fffdfe !important;
 	border-top-left-radius: 10px !important;
 	border-top-right-radius: 10px !important;
@@ -271,7 +271,7 @@ th.top a {
 /* SELECT/INPUT BARS */
 
 select.form-control {
-	background: #005e9a !important;
+	background: #556a89 !important;
 	color: #2b3832 !important;
 	border: none !important;
 }
@@ -279,7 +279,7 @@ select.form-control {
 /* CAVE UPDATE BUTTON */
 
 button.btn.btn-success {
-	background: #005e9a !important;
+	background: #556a89 !important;
 	color: #2b3832 !important;
 	border: none !important;
 }
@@ -287,7 +287,7 @@ button.btn.btn-success {
 /* CREATE A CAVE BUTTON */
 
 button#submitBtn.btn.btn-primary {
-	background: #566347 !important;
+	background: #404147 !important;
 	color: #fffdfe !important;
 	border: none !important;
 }
@@ -295,7 +295,7 @@ button#submitBtn.btn.btn-primary {
 /* MAIN PANELS/TABLES */
 
 tr {
-	background: #005e9a !important;
+	background: #556a89 !important;
 	border: none !important;
 }
 
@@ -305,7 +305,7 @@ td.row {
 }
 
 td.bottom {
-	background: #005e9a !important;
+	background: #556a89 !important;
 	border-bottom-left-radius: 10px !important;
 	border-bottom-right-radius: 10px !important;
 }
@@ -316,13 +316,13 @@ td.bottom tr.pup {
 }
 
 tbody tr td {
-	background: #005e9a !important;
+	background: #556a89 !important;
 }
 
 /* INNER TABLE (LEFT) */
 
 td.b {
-	background: #005e9a !important;
+	background: #556a89 !important;
 }
 
 /* INNER TABLE (RIGHT) */
@@ -342,7 +342,7 @@ i.fas.fa-question-circle {
 /* LEAD WOLF SHADOW */
 
 div.card-body.pt-1.pb-1 {
-	background: #005e9a !important;
+	background: #556a89 !important;
 }
 
 /* FEATURED WOLF */
@@ -446,7 +446,7 @@ a.text-danger.small {
 /* FEED/PLAY BUTTONS */
 
 button.btn.btn-info.btn-sm {
-	background: #566347;
+	background: #404147;
 	color: #fffdfe;
 	border: none !important;
 }
@@ -460,7 +460,7 @@ div.col-auto.pt-1 {
 /* COPYRIGHT */
 
 div.row.justify-content-center {
-	background: #566347 !important;
+	background: #404147 !important;
 	border: none !important;
 	color: #fffdfe !important;
 	border-bottom-left-radius: 10px !important;
@@ -472,7 +472,7 @@ div.row.justify-content-center a {
 }
 
 nav.navbar.navbar-expand.navbar-dark.flex-wrap.justify-content-center {
-	background: #566347 !important;
+	background: #404147 !important;
 }
 
 /* SHITTY BORDER BEGONE */
@@ -564,7 +564,7 @@ a.btn.btn-info {
 /* UPDATE BUTTON */
 
 button.btn.btn-primary.float-right {
-	background: #566347 !important;
+	background: #404147 !important;
 	border: none !important;
 	color: #2b3832 !important;
 }
@@ -591,7 +591,7 @@ span.text-success {
 }
 
 span.text-failure {
-	color: #3a9bff !important;
+	color: #58c4f4 !important;
 }
 
 /* LEFT + RIGHT ARROWS */
@@ -618,7 +618,7 @@ div.note-toolbar.card-header {
 }
 
 div.note-editing-area {
-	background: #005e9a !important;
+	background: #556a89 !important;
 	color: #fffdfe !important;
 }
 
@@ -657,7 +657,7 @@ a:visited {
 
 .Box1 {
 	float: left;
-	background: #005e9a;
+	background: #556a89;
 	color: #2b3832;
 	padding: 10px;
 	margin: 10px;
@@ -672,7 +672,7 @@ a:visited {
 
 .Box2 {
 	float: left;
-	background: #005e9a;
+	background: #556a89;
 	color: #2b3832;
 	padding: 10px;
 	margin: 10px;
@@ -685,7 +685,7 @@ a:visited {
 
 .Box3 {
 	float: left;
-	background: #005e9a;
+	background: #556a89;
 	color: #2b3832;
 	padding: 10px;
 	margin: 10px;
@@ -698,7 +698,7 @@ a:visited {
 
 .hoverbox1 {
 	float: left;
-	background: #005e9a;
+	background: #556a89;
 	color: #2b3832;
 	padding: 10px;
 	margin: 10px;
@@ -718,7 +718,7 @@ a:visited {
 
 .hoverbox2 {
 	float: left;
-	background: #005e9a;
+	background: #556a89;
 	color: #2b3832;
 	padding: 10px;
 	margin: 10px;
@@ -738,7 +738,7 @@ a:visited {
 
 .hoverbox3 {
 	float: left;
-	background: #005e9a;
+	background: #556a89;
 	color: #2b3832;
 	padding: 10px;
 	margin: 10px;
@@ -765,7 +765,7 @@ a:visited {
 }
 
 ::-webkit-scrollbar-track {
-	background: #c0a590;
+	background: #3b485a;
 	border-radius: 10px;
 }
 
