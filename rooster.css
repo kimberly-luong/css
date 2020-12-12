@@ -1,21 +1,15 @@
-/*
-  CSS by Rooster (#30712) for use on Wolvden
-*/
-
+/* CSS by Rooster (#30712) for use on Wolvden */
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
-/* DESKTOP BACKGROUND */
-
+/* BACKGROUNDS */
 @media screen and (min-width: 601px){
 body {
-	background: url('https://puu.sh/GAbD1/1086b7520f.jpg') center center fixed;
+	background: url('NightSky.png') center center fixed;
 	background-size: cover;
-	font-family: 'Josefin Sans', sans-serif;
-	color: #2b3832;}
+	font-family: 'Raleway', sans-serif;
+	color: #FFFFFF;}
 }
-
-/* MOBILE BACKGROUND */
 
 @media screen and (max-width: 600px){
 body {
@@ -90,11 +84,11 @@ li.breadcrumb-item.active {
 /* BREADCRUMB BAR CREDIT */
 
 ol.breadcrumb.col-lg-9.ml-auto.text-break::after {
-        content: "CSS by Katie (#401)";
-        color: #644629;
-	font-size: 14px !important;
+        content: "CSS by Rooster (#30712)";
+        color: #FFFFFF;
+	font-size: 15px !important;
         position: absolute;
-        right: 6%;
+        right: 10%;
         z-index: 100;
 }
 
