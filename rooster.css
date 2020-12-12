@@ -1,0 +1,783 @@
+/*
+  CSS by Rooster (#30712) for use on Wolvden
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+/* DESKTOP BACKGROUND */
+
+@media screen and (min-width: 601px){
+body {
+	background: url('https://puu.sh/GAbD1/1086b7520f.jpg') center center fixed;
+	background-size: cover;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #2b3832;}
+}
+
+/* MOBILE BACKGROUND */
+
+@media screen and (max-width: 600px){
+body {
+	background: #f2e8dc;
+	background-size: cover;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #2b3832;}
+}
+
+/* NAVBAR ICONS */
+
+i.fa {
+	color: #fffdfe !important;
+}
+
+/* NAVBAR (DEN, CROSSROADS, HOARD) */
+
+.navbar {
+	background: #566347 !important;
+	color: #fffdfe !important;
+	border-top-left-radius: 10px !important;
+	border-top-right-radius: 10px !important;
+}
+
+.navbar a.nav-link {
+	color: #fffdfe !important;
+	font-size: 17px !important;
+}
+
+a.nav-link:hover {
+	color: #cc8478 !important;
+}
+
+/* BREADCRUMB BAR 1 (Welcome back, [user]) */
+
+.navbar-status, .navbar-expand {
+	background: #9f9767 !important;
+	color: #2b3832 !important;
+}
+
+.navbar-status, .navbar-expand a.nav-link {
+	color: #2b3832 !important;
+	font-size: 14px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+}
+
+span.d-none.d-lg-inline.navbar-text a:hover {
+	color: #2b3832 !important;
+}
+
+span.d-none.d-md-inline {
+	color: #2b3832 !important;
+}
+
+/* BREADCRUMB BAR 2 (Home / [user] / Pack) */
+
+nav.breadcrumb-nav {
+	background: rgba(208, 204, 201, 0.3) !important;
+	color: #2b3832 !important;
+	border-bottom: none !important;
+}
+
+nav.breadcrumb-nav a {
+	color: #2b3832 !important;
+}
+
+li.breadcrumb-item.active {
+	color: #2b3832 !important;
+}
+
+/* BREADCRUMB BAR CREDIT */
+
+ol.breadcrumb.col-lg-9.ml-auto.text-break::after {
+        content: "CSS by Katie (#401)";
+        color: #644629;
+	font-size: 14px !important;
+        position: absolute;
+        right: 6%;
+        z-index: 100;
+}
+
+/* ALERTS */
+
+.alert, .alert-success, .alert-danger {
+	background: #9f9767 !important;
+	border: none !important;
+	color: #2b3832 !important;
+}
+
+.alert a, .alert-success a, .alert-danger a {
+	color: #2b3832 !important;
+}
+
+/* LEFT SIDEBAR (BACKGROUND) */
+
+div.col-lg-3 {
+	background: rgba(208, 204, 201, 0.3) !important;
+	border-right: none !important;
+}
+
+/* MAIN PANEL (BACKGROUND) */
+
+div.col-lg-9.order-lg-2 {
+	background: rgba(208, 204, 201, 0.3) !important;
+}
+
+/* PACK NAME (H1) */
+
+div.col-lg-9.order-lg-2 h1 {
+	color: #fffdfe !important;
+	text-shadow: 1px 1px #566347 !important;
+	font-size: 50px !important;
+}
+
+/* TAB 1 ([User]'s Den) + /* TAB 2 ([User]'s Profile) (Text Color Shared With Navbar) */
+
+ul.nav.nav-tabs a.nav-link {
+	background: none !important;
+	color: #fffdfe !important;
+	margin: 1px !important;
+	border: none !important;
+	border-top-left-radius: 10px !important;
+	border-top-right-radius: 10px !important;
+}
+
+ul.nav.nav-tabs {
+	border-bottom: none !important;
+}
+
+ul.nav.nav-tabs a.nav-link.active {
+	background: #bc6b5f !important;
+	color: #fffdfe !important;
+	border: none !important;
+	border-bottom: none !important;
+	border-top-left-radius: 10px !important;
+	border-top-right-radius: 10px !important;
+	margin: 1px !important;
+}
+
+/* REPORT A BUG */
+
+button.btn.btn-danger.btn-lg.mb-3 {
+	background: #9f9767 !important;
+	color: #2b3832 !important;
+	border: none !important;
+	margin-top: 10px !important;
+}
+
+/* BUGBOX */
+
+form.mb-3.text-center a h4 {
+	color: #fffdfe !important;
+}
+
+form.mb-3.text-center a h4 i.fa.fa-box {
+	color: #fffdfe !important;
+}
+
+/* LEFT PANELS */
+
+.card {
+	background: #d7bca6 !important;
+	border: none !important;
+	border-radius: 10px !important;
+}
+
+div.card-body a {
+	color: #2b3832 !important;
+}
+
+div.card-body a b {
+	color: #2b3832 !important;
+}
+
+h3 {
+	color: #2b3832 !important;
+}
+
+/* CHAT TOGGLE */
+
+i.fa.fa-plus.fa-lg, i.fa.fa-lg.fa-minus {
+	color: #566347 !important;
+}
+
+/* PROGRESS BARS */
+
+.progress {
+	background: #c0a590 !important;
+}
+
+div#progress-energy.progress-bar.bg-warning {
+	background: #bb5c4c !important;
+}
+
+div#progress-hunger.progress-bar.bg-danger {
+	background: #cf8e64 !important;
+}
+
+div#progress-hp.progress-bar.bg-info {
+	background: #858555 !important;
+}
+
+div#progress-xp.progress-bar.bg-success {
+	background: #80aec6 !important;
+}
+
+div.progress-bar.bg-warning {
+	background: #bb5c4c !important;
+}
+
+div.progress-bar.bg-primary {
+	background: #cf8e64 !important;
+}
+
+div.progress-bar.bg-danger {
+	background: #858555 !important;
+}
+
+div.progress-bar.bg-info {
+	background: #80aec6 !important;
+}
+
+div.progress-bar.bg-success {
+	background: #bb5c4c !important;
+}
+
+/* WOLF NAME BAR */
+
+th.pt-1.pb-1 {
+	background: #566347 !important;
+	color: #fffdfe !important;
+	border: none !important;
+	border-top-left-radius: 10px !important;
+	border-top-right-radius: 10px !important;
+}
+
+th.pt-1.pb-1 a {
+	color: #fffdfe !important;
+}
+
+/* CAVE NAME BAR */
+
+th.top {
+	background: #566347 !important;
+	color: #fffdfe !important;
+	border-top-left-radius: 10px !important;
+	border-top-right-radius: 10px !important;
+}
+
+th.top a {
+	color: #fffdfe !important;
+}
+
+/* "MANAGE (CAVE NAME)" */
+
+.floatright a {
+	color: #fffdfe !important;
+}
+
+/* SELECT/INPUT BARS */
+
+select.form-control {
+	background: #d7bca6 !important;
+	color: #2b3832 !important;
+	border: none !important;
+}
+
+/* CAVE UPDATE BUTTON */
+
+button.btn.btn-success {
+	background: #d7bca6 !important;
+	color: #2b3832 !important;
+	border: none !important;
+}
+
+/* CREATE A CAVE BUTTON */
+
+button#submitBtn.btn.btn-primary {
+	background: #566347 !important;
+	color: #fffdfe !important;
+	border: none !important;
+}
+
+/* MAIN PANELS/TABLES */
+
+tr {
+	background: #d7bca6 !important;
+	border: none !important;
+}
+
+td.row {
+	background: none !important;
+	border: none !important;
+}
+
+td.bottom {
+	background: #d7bca6 !important;
+	border-bottom-left-radius: 10px !important;
+	border-bottom-right-radius: 10px !important;
+}
+
+td.bottom tr.pup {
+	border-bottom-left-radius: 10px !important;
+	border-bottom-right-radius: 10px !important;
+}
+
+tbody tr td {
+	background: #d7bca6 !important;
+}
+
+/* INNER TABLE (LEFT) */
+
+td.b {
+	background: #d7bca6 !important;
+}
+
+/* INNER TABLE (RIGHT) */
+
+tbody tr td {
+	background: none !important;
+}
+
+tr td a {
+	color: #2b3832 !important;
+}
+
+i.fas.fa-question-circle {
+	color: #2b3832 !important;
+}
+
+/* LEAD WOLF SHADOW */
+
+div.card-body.pt-1.pb-1 {
+	background: #d7bca6 !important;
+}
+
+/* FEATURED WOLF */
+
+div.col-xl-3.col-sm-5.order-xl-12.order-4.text-center.featured-wolf a {
+	color: #fffdfe !important;
+}
+
+.card-user {
+	border: none !important;
+}
+
+/* REMOVE FEATURED WOLF BUTTON */
+
+button.btn.btn-link.btn-sm.text-danger {
+	color: #2b3832 !important;
+}
+
+/* WOLF IMAGES */
+
+td.row img.card-img-top {
+	border-radius: 20px !important;
+	overflow: hidden !important;
+}
+
+div.col-xl-3.col-sm-5.order-xl-12.order-4.text-center.text-break.featured-wolf img {
+	border-radius: 20px !important;
+	overflow: hidden !important;
+}
+
+div.card-body img {
+	border-radius: 20px !important;
+	overflow: hidden !important;
+}
+
+/* DYNASTY, NESTING, OVERVIEW, BREEDING, TERRITORY SLOT, IMMORTAL SLOT */
+
+.card-header {
+	background: #bc6b5f !important;
+	color: #fffdfe !important;
+	text-decoration: none !important;
+	border-bottom-left-radius: 10px !important;
+	border-bottom-right-radius: 10px !important;
+}
+
+div.col-md-6 .card-header {
+	background: #bc6b5f !important;
+	color: #fffdfe !important;
+	text-decoration: none !important;
+	border-top-left-radius: 10px !important;
+	border-top-right-radius: 10px !important;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+}
+
+.card-header:hover {
+	text-decoration: none !important;
+}
+
+.card-header b:hover {
+	color: #fffdfe !important;
+}
+
+button.btn.btn-warning {
+	background: #bc6b5f !important;
+	border: none !important;
+	color: #fffdfe !important;
+}
+
+/* DYNASTY, NESTING, OVERVIEW, BREEDING IMAGES */
+
+div.card.text-center>img {
+	border-top-left-radius: 10px !important;
+	border-top-right-radius: 10px !important;
+}
+
+/* FAPA, AUTO NESTING */
+
+div#autoNesting.card-header {
+	background: none;
+	color: #2b3832 !important;
+	overflow: hidden !important;
+}
+
+div#groveServices.accordion {
+	background: none;
+	color: #2b3832 !important;
+	overflow: hidden !important;
+}
+
+/* FAPA, AUTO NESTING TEXT */
+
+button.btn.btn-link.btn-block.text-left.border-0.b.pl-0, button.btn.btn-link.btn-block.text-left.border-0.b.pl-0 a {
+	color: #fffdfe !important;
+}
+
+a.text-danger.small {
+	color: #fffdfe !important;
+}
+
+/* FEED/PLAY BUTTONS */
+
+button.btn.btn-info.btn-sm {
+	background: #566347;
+	color: #fffdfe;
+	border: none !important;
+}
+
+/* ROLLOVERS REMAINING TEXT */
+
+div.col-auto.pt-1 {
+	color: #fffdfe;
+}
+
+/* COPYRIGHT */
+
+div.row.justify-content-center {
+	background: #566347 !important;
+	border: none !important;
+	color: #fffdfe !important;
+	border-bottom-left-radius: 10px !important;
+	border-bottom-right-radius: 10px !important;
+}
+
+div.row.justify-content-center a {
+	color: #fffdfe !important;
+}
+
+nav.navbar.navbar-expand.navbar-dark.flex-wrap.justify-content-center {
+	background: #566347 !important;
+}
+
+/* SHITTY BORDER BEGONE */
+
+table.table.table-striped {
+	border: none !important;
+}
+
+table.table {
+	border: none !important;
+}
+
+div.w-50 {
+	border: none !important;
+}
+
+/* LEAD WOLF PAGE & USER PROFILE ADDONS */
+
+/* OWNED BY ___ TEXT */
+
+div.float-right.text-right a {
+	color: #fffdfe !important;
+}
+
+/* VIEW PREVIOUS PACKS TEXT */
+
+span.small a {
+	color: #fffdfe !important;
+}
+
+/* HEADER BARS */
+
+th.b, tbody tr th {
+	background: #9f9767 !important;
+	border: none !important;
+}
+
+/* STATS */
+
+td.table-info.b.text-right {
+	background: none !important;
+}
+
+td.table-info.b.text-left {
+	background: none !important;
+}
+
+/* RETIRE, VIEW FAMILY, VIEW IN WARDROBE, GO TO EQUIPPER BUTTONS */
+
+a.btn.btn-primary.btn-block {
+	background: #9f9767 !important;
+	border: none !important;
+	color: #fffdfe !important;
+}
+
+a.btn.btn-info.btn-block {
+	background: #9f9767 !important;
+	border: none !important;
+	color: #fffdfe !important;
+}
+
+/* WOLF DETAILS, DECORATIONS, SETTINGS BUTTONS */
+
+a.nav-item.nav-link {
+	background: #9f9767 !important;
+	border: none !important;
+	margin: 5px !important;
+	color: #fffdfe !important;
+}
+
+/* PROFILE DIVIDER LINES */
+
+div#nav-tab.nav.nav-tabs {
+	border-color: #eff4e4 !important;
+}
+
+hr {
+	border-color: #eff4e4 !important;
+}
+
+/* BREED TO THIS BREEDING MALE BUTTON */
+
+a.btn.btn-info {
+	background: #9f9767 !important;
+	border: none !important;
+	color: #fffdfe !important;
+}
+
+/* UPDATE BUTTON */
+
+button.btn.btn-primary.float-right {
+	background: #566347 !important;
+	border: none !important;
+	color: #2b3832 !important;
+}
+
+/* REPORT WOLF BUTTON */
+
+button.btn.btn-danger {
+	background: #9f9767 !important;
+	border: none !important;
+	color: #2b3832 !important;
+}
+
+/* CHANGE PASSWORD, MANAGE DEVICES, VIEW USER LOG */
+
+div.card-body.text-center.font-weight-bold.p-2 {
+	background: #9f9767 !important;
+	color: #fffdfe !important;
+}
+
+/* LAST ACTIVE TEXT + ONLINE/OFFLINE DOTS */
+
+span.text-success {
+	color: #828557 !important;
+}
+
+span.text-failure {
+	color: #bb5c4c !important;
+}
+
+/* LEFT + RIGHT ARROWS */
+
+i.fas.fa-arrow-alt-circle-left {
+	color: #9f9767 !important;
+}
+
+i.fas.fa-arrow-alt-circle-right {
+	color: #9f9767 !important;
+}
+
+/* WOLF ID */
+
+span.text-muted {
+	color: #0c310e !important;
+}
+
+/* BIO TEXT BOX */
+
+div.note-toolbar.card-header {
+	background: #9f9767 !important;
+	color: #fffdfe !important;
+}
+
+div.note-editing-area {
+	background: #d7bca6 !important;
+	color: #fffdfe !important;
+}
+
+/* LINKS */
+
+button.btn.dropdown-toggle.border-0.text-light.b.m-0.p-0 {
+	color: #2b3832 !important;
+}
+
+i.fa.fa-envelope-open, i.fa.fa-box {
+	color: #2b3832 !important;
+}
+
+a.dropdown-item.text-dark, i.fa.fa-sign-out-alt.mr-1 {
+	color: #2b3832 !important;
+}
+
+div.col-xl-3.col-sm-5.order-xl-12.order-4.text-center.text-break.featured-wolf a {
+	color: #2b3832 !important;
+}
+
+a:link,
+a:visited {
+	color: #2b3832 !important;
+}
+
+/* BOXES */
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+}
+
+.Box1 {
+	float: left;
+	background: #d7bca6;
+	color: #2b3832;
+	padding: 10px;
+	margin: 10px;
+	float: right;
+	overflow: auto;
+	height: 250px;
+	width: 250px;
+	border-radius: 10px;
+	margin-bottom: 15px;
+	transition: 4s;
+}
+
+.Box2 {
+	float: left;
+	background: #d7bca6;
+	color: #2b3832;
+	padding: 10px;
+	margin: 10px;
+	height: 250px;
+	width: 385px;
+	border-radius: 10px;
+	transition: 1s;
+	overflow: auto;
+}
+
+.Box3 {
+	float: left;
+	background: #d7bca6;
+	color: #2b3832;
+	padding: 10px;
+	margin: 10px;
+	height: 250px;
+	width: 790px;
+	border-radius: 10px;
+	transition: 1s;
+	overflow: auto;
+}
+
+.hoverbox1 {
+	float: left;
+	background: #d7bca6;
+	color: #2b3832;
+	padding: 10px;
+	margin: 10px;
+	height: 47px;
+	width: 250px;
+	border-radius: 10px;
+	margin-bottom: 15px;
+	transition: 4s;
+	overflow: hidden;
+}
+
+.hoverbox1:hover {
+	height: 250px;
+	width: 250px;
+	overflow: auto;
+}
+
+.hoverbox2 {
+	float: left;
+	background: #d7bca6;
+	color: #2b3832;
+	padding: 10px;
+	margin: 10px;
+	height: 47px;
+	border-radius: 10px;
+	width: 385px;
+	margin-bottom: 15px;
+	transition: 4s;
+	overflow: hidden;
+}
+
+.hoverbox2:hover {
+	height: 250px;
+	width: 385px;
+	overflow: auto;
+}
+
+.hoverbox3 {
+	float: left;
+	background: #d7bca6;
+	color: #2b3832;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px;
+	height: 47px;
+	width: 790px;
+	margin-bottom: 15px;
+	transition: 4s;
+	overflow: hidden;
+}
+
+.hoverbox3:hover {
+	height: 250px;
+	width: 790px;
+	overflow: auto;
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+	width: 9px;
+	height: 0px;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #c0a590;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #bc6b5f;
+	border-radius: 10px;
+}
