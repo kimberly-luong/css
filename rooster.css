@@ -88,7 +88,7 @@ ol.breadcrumb.col-lg-9.ml-auto.text-break::after {
         color: #FFFFFF;
 	font-size: 15px !important;
         position: absolute;
-        right: 10%;
+        right: 8%;
         z-index: 100;
 }
 
