@@ -13,20 +13,18 @@ body {
 
 @media screen and (max-width: 600px){
 body {
-	background: #f2e8dc;
+	background: #000000;
 	background-size: cover;
-	font-family: 'Josefin Sans', sans-serif;
-	color: #2b3832;}
+	font-family: 'Raleway', sans-serif;
+	color: #FFFFFF;}
 }
 
-/* NAVBAR ICONS */
-
+/* NAVIGATION BAR ICONS */
 i.fa {
-	color: #fffdfe !important;
+	color: #FFF !important;
 }
 
 /* NAVBAR (DEN, CROSSROADS, HOARD) */
-
 .navbar {
 	background: #566347 !important;
 	color: #fffdfe !important;
@@ -132,8 +130,8 @@ ul.nav.nav-tabs a.nav-link {
 	color: #fffdfe !important;
 	margin: 1px !important;
 	border: none !important;
-	border-top-left-radius: 10px !important;
-	border-top-right-radius: 10px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
 }
 
 ul.nav.nav-tabs {
@@ -145,8 +143,8 @@ ul.nav.nav-tabs a.nav-link.active {
 	color: #fffdfe !important;
 	border: none !important;
 	border-bottom: none !important;
-	border-top-left-radius: 10px !important;
-	border-top-right-radius: 10px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
 	margin: 1px !important;
 }
 
