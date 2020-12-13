@@ -45,38 +45,38 @@ a.nav-link:hover {
 
 .navbar-status, .navbar-expand {
 	background: #3c585a !important;
-	color: #28a4de !important;
+	color: #cfe2ea !important;
 }
 
 .navbar-status, .navbar-expand a.nav-link {
-	color: #28a4de !important;
+	color: #cfe2ea !important;
 	font-size: 14px !important;
 	border-top-left-radius: 0px !important;
 	border-top-right-radius: 0px !important;
 }
 
 span.d-none.d-lg-inline.navbar-text a:hover {
-	color: #28a4de !important;
+	color: #cfe2ea !important;
 }
 
 span.d-none.d-md-inline {
-	color: #28a4de !important;
+	color: #cfe2ea !important;
 }
 
 /* BREADCRUMB BAR 2 (Home / [user] / Pack) */
 
 nav.breadcrumb-nav {
 	background: rgba(208, 204, 201, 0.3) !important;
-	color: #28a4de !important;
+	color: #cfe2ea !important;
 	border-bottom: none !important;
 }
 
 nav.breadcrumb-nav a {
-	color: #28a4de !important;
+	color: #cfe2ea !important;
 }
 
 li.breadcrumb-item.active {
-	color: #28a4de !important;
+	color: #cfe2ea !important;
 }
 
 /* BREADCRUMB BAR CREDIT */
@@ -95,11 +95,11 @@ ol.breadcrumb.col-lg-9.ml-auto.text-break::after {
 .alert, .alert-success, .alert-danger {
 	background: #3c585a !important;
 	border: none !important;
-	color: #28a4de !important;
+	color: #cfe2ea !important;
 }
 
 .alert a, .alert-success a, .alert-danger a {
-	color: #28a4de !important;
+	color: #cfe2ea !important;
 }
 
 /* LEFT SIDEBAR (BACKGROUND) */
@@ -152,7 +152,7 @@ ul.nav.nav-tabs a.nav-link.active {
 
 button.btn.btn-danger.btn-lg.mb-3 {
 	background: #3c585a !important;
-	color: #28a4de !important;
+	color: #cfe2ea !important;
 	border: none !important;
 	margin-top: 10px !important;
 }
@@ -176,15 +176,15 @@ form.mb-3.text-center a h4 i.fa.fa-box {
 }
 
 div.card-body a {
-	color: #28a4de !important;
+	color: #cfe2ea !important;
 }
 
 div.card-body a b {
-	color: #28a4de !important;
+	color: #cfe2ea !important;
 }
 
 h3 {
-	color: #28a4de !important;
+	color: #cfe2ea !important;
 }
 
 /* CHAT TOGGLE */
@@ -272,7 +272,7 @@ th.top a {
 
 select.form-control {
 	background: #556a89 !important;
-	color: #28a4de !important;
+	color: #cfe2ea !important;
 	border: none !important;
 }
 
@@ -280,7 +280,7 @@ select.form-control {
 
 button.btn.btn-success {
 	background: #556a89 !important;
-	color: #28a4de !important;
+	color: #cfe2ea !important;
 	border: none !important;
 }
 
@@ -332,11 +332,11 @@ tbody tr td {
 }
 
 tr td a {
-	color: #28a4de !important;
+	color: #cfe2ea !important;
 }
 
 i.fas.fa-question-circle {
-	color: #28a4de !important;
+	color: #cfe2ea !important;
 }
 
 /* LEAD WOLF SHADOW */
@@ -358,7 +358,7 @@ div.col-xl-3.col-sm-5.order-xl-12.order-4.text-center.featured-wolf a {
 /* REMOVE FEATURED WOLF BUTTON */
 
 button.btn.btn-link.btn-sm.text-danger {
-	color: #28a4de !important;
+	color: #cfe2ea !important;
 }
 
 /* WOLF IMAGES */
@@ -423,13 +423,13 @@ div.card.text-center>img {
 
 div#autoNesting.card-header {
 	background: none;
-	color: #28a4de !important;
+	color: #cfe2ea !important;
 	overflow: hidden !important;
 }
 
 div#groveServices.accordion {
 	background: none;
-	color: #28a4de !important;
+	color: #cfe2ea !important;
 	overflow: hidden !important;
 }
 
@@ -566,7 +566,7 @@ a.btn.btn-info {
 button.btn.btn-primary.float-right {
 	background: #172c2e !important;
 	border: none !important;
-	color: #28a4de !important;
+	color: #cfe2ea !important;
 }
 
 /* REPORT WOLF BUTTON */
@@ -574,7 +574,7 @@ button.btn.btn-primary.float-right {
 button.btn.btn-danger {
 	background: #3c585a !important;
 	border: none !important;
-	color: #28a4de !important;
+	color: #cfe2ea !important;
 }
 
 /* CHANGE PASSWORD, MANAGE DEVICES, VIEW USER LOG */
@@ -625,24 +625,24 @@ div.note-editing-area {
 /* LINKS */
 
 button.btn.dropdown-toggle.border-0.text-light.b.m-0.p-0 {
-	color: #28a4de !important;
+	color: #cfe2ea !important;
 }
 
 i.fa.fa-envelope-open, i.fa.fa-box {
-	color: #28a4de !important;
+	color: #cfe2ea !important;
 }
 
 a.dropdown-item.text-dark, i.fa.fa-sign-out-alt.mr-1 {
-	color: #28a4de !important;
+	color: #cfe2ea !important;
 }
 
 div.col-xl-3.col-sm-5.order-xl-12.order-4.text-center.text-break.featured-wolf a {
-	color: #28a4de !important;
+	color: #cfe2ea !important;
 }
 
 a:link,
 a:visited {
-	color: #28a4de !important;
+	color: #cfe2ea !important;
 }
 
 /* BOXES */
@@ -658,7 +658,7 @@ a:visited {
 .Box1 {
 	float: left;
 	background: #556a89;
-	color: #28a4de;
+	color: #cfe2ea;
 	padding: 10px;
 	margin: 10px;
 	float: right;
@@ -673,7 +673,7 @@ a:visited {
 .Box2 {
 	float: left;
 	background: #556a89;
-	color: #28a4de;
+	color: #cfe2ea;
 	padding: 10px;
 	margin: 10px;
 	height: 250px;
@@ -686,7 +686,7 @@ a:visited {
 .Box3 {
 	float: left;
 	background: #556a89;
-	color: #28a4de;
+	color: #cfe2ea;
 	padding: 10px;
 	margin: 10px;
 	height: 250px;
@@ -699,7 +699,7 @@ a:visited {
 .hoverbox1 {
 	float: left;
 	background: #556a89;
-	color: #28a4de;
+	color: #cfe2ea;
 	padding: 10px;
 	margin: 10px;
 	height: 47px;
@@ -719,7 +719,7 @@ a:visited {
 .hoverbox2 {
 	float: left;
 	background: #556a89;
-	color: #28a4de;
+	color: #cfe2ea;
 	padding: 10px;
 	margin: 10px;
 	height: 47px;
@@ -739,7 +739,7 @@ a:visited {
 .hoverbox3 {
 	float: left;
 	background: #556a89;
-	color: #28a4de;
+	color: #cfe2ea;
 	padding: 10px;
 	margin: 10px;
 	border-radius: 10px;
