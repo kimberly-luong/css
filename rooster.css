@@ -13,7 +13,7 @@ body {
 
 @media screen and (max-width: 600px){
 body {
-	background: #000000;
+	background: url('NightSky_phone.png') center center fixed;
 	background-size: cover;
 	font-family: 'Raleway', sans-serif;
 	color: #FFFFFF;}
@@ -28,8 +28,8 @@ i.fa {
 .navbar {
 	background: #172c2e !important;
 	color: #fffdfe !important;
-	border-top-left-radius: 10px !important;
-	border-top-right-radius: 10px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
 }
 
 .navbar a.nav-link {
@@ -172,7 +172,7 @@ form.mb-3.text-center a h4 i.fa.fa-box {
 .card {
 	background: #556a89 !important;
 	border: none !important;
-	border-radius: 10px !important;
+	border-radius: 0px !important;
 }
 
 div.card-body a {
@@ -241,8 +241,8 @@ th.pt-1.pb-1 {
 	background: #172c2e !important;
 	color: #fffdfe !important;
 	border: none !important;
-	border-top-left-radius: 10px !important;
-	border-top-right-radius: 10px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
 }
 
 th.pt-1.pb-1 a {
@@ -254,8 +254,8 @@ th.pt-1.pb-1 a {
 th.top {
 	background: #172c2e !important;
 	color: #fffdfe !important;
-	border-top-left-radius: 10px !important;
-	border-top-right-radius: 10px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
 }
 
 th.top a {
@@ -306,13 +306,13 @@ td.row {
 
 td.bottom {
 	background: #556a89 !important;
-	border-bottom-left-radius: 10px !important;
-	border-bottom-right-radius: 10px !important;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
 }
 
 td.bottom tr.pup {
-	border-bottom-left-radius: 10px !important;
-	border-bottom-right-radius: 10px !important;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
 }
 
 tbody tr td {
@@ -384,16 +384,16 @@ div.card-body img {
 	background: #2e4446 !important;
 	color: #fffdfe !important;
 	text-decoration: none !important;
-	border-bottom-left-radius: 10px !important;
-	border-bottom-right-radius: 10px !important;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
 }
 
 div.col-md-6 .card-header {
 	background: #2e4446 !important;
 	color: #fffdfe !important;
 	text-decoration: none !important;
-	border-top-left-radius: 10px !important;
-	border-top-right-radius: 10px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
 	border-bottom-left-radius: 0px !important;
 	border-bottom-right-radius: 0px !important;
 }
@@ -415,8 +415,8 @@ button.btn.btn-warning {
 /* DYNASTY, NESTING, OVERVIEW, BREEDING IMAGES */
 
 div.card.text-center>img {
-	border-top-left-radius: 10px !important;
-	border-top-right-radius: 10px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
 }
 
 /* FAPA, AUTO NESTING */
@@ -463,8 +463,8 @@ div.row.justify-content-center {
 	background: #172c2e !important;
 	border: none !important;
 	color: #fffdfe !important;
-	border-bottom-left-radius: 10px !important;
-	border-bottom-right-radius: 10px !important;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
 }
 
 div.row.justify-content-center a {
@@ -665,7 +665,7 @@ a:visited {
 	overflow: auto;
 	height: 250px;
 	width: 250px;
-	border-radius: 10px;
+	border-radius: 0px;
 	margin-bottom: 15px;
 	transition: 4s;
 }
@@ -678,7 +678,7 @@ a:visited {
 	margin: 10px;
 	height: 250px;
 	width: 385px;
-	border-radius: 10px;
+	border-radius: 0px;
 	transition: 1s;
 	overflow: auto;
 }
@@ -691,7 +691,7 @@ a:visited {
 	margin: 10px;
 	height: 250px;
 	width: 790px;
-	border-radius: 10px;
+	border-radius: 0px;
 	transition: 1s;
 	overflow: auto;
 }
@@ -704,7 +704,7 @@ a:visited {
 	margin: 10px;
 	height: 47px;
 	width: 250px;
-	border-radius: 10px;
+	border-radius: 0px;
 	margin-bottom: 15px;
 	transition: 4s;
 	overflow: hidden;
@@ -723,7 +723,7 @@ a:visited {
 	padding: 10px;
 	margin: 10px;
 	height: 47px;
-	border-radius: 10px;
+	border-radius: 0px;
 	width: 385px;
 	margin-bottom: 15px;
 	transition: 4s;
@@ -742,7 +742,7 @@ a:visited {
 	color: #cfe2ea;
 	padding: 10px;
 	margin: 10px;
-	border-radius: 10px;
+	border-radius: 0px;
 	height: 47px;
 	width: 790px;
 	margin-bottom: 15px;
@@ -759,17 +759,17 @@ a:visited {
 /* SCROLLBAR */
 
 ::-webkit-scrollbar {
-	width: 9px;
+	width: 25px;
 	height: 0px;
-	border-radius: 10px;
+	border-radius: 0px;
 }
 
 ::-webkit-scrollbar-track {
 	background: #3b485a;
-	border-radius: 10px;
+	border-radius: 0px;
 }
 
 ::-webkit-scrollbar-thumb {
 	background: #2e4446;
-	border-radius: 10px;
+	border-radius: 0px;
 }
